@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					630CF8131D9DF1AA0043ECBD = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BC438L6775;
 						ProvisioningStyle = Automatic;
 					};
 					630CF8271D9DF1AB0043ECBD = {
@@ -412,6 +413,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BC438L6775;
 				INFOPLIST_FILE = Caculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Anh.Caculator;
@@ -424,6 +427,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BC438L6775;
 				INFOPLIST_FILE = Caculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Anh.Caculator;
